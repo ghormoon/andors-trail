@@ -228,7 +228,7 @@
             },
             {
                 "itemID":"ring_jinxed1",
-                "chance":"1",
+                "chance":"2",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -265,7 +265,7 @@
             },
             {
                 "itemID":"ring_jinxed1",
-                "chance":"1",
+                "chance":"2",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -281,7 +281,7 @@
             },
             {
                 "itemID":"shadowfang",
-                "chance":"1/1000",
+                "chance":"1",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -336,7 +336,7 @@
             },
             {
                 "itemID":"iqhan_pendant",
-                "chance":"1",
+                "chance":"2",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -455,7 +455,7 @@
             },
             {
                 "itemID":"chaosreaper",
-                "chance":"1/1000",
+                "chance":"1",
                 "quantity":{
                     "min":1,
                     "max":1

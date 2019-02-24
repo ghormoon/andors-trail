@@ -173,7 +173,7 @@
             },
             {
                 "itemID":"ring_shadow0",
-                "chance":"1/10000",
+                "chance":"1/200",
                 "quantity":{
                     "min":1,
                     "max":1

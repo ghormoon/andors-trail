@@ -60,9 +60,9 @@ public final class ResourceParserUtils {
 	private static final ConstRange rare_20 = new ConstRange(100, 20);
 	private static final ConstRange rare_10 = new ConstRange(100, 10);
 	private static final ConstRange seldom = new ConstRange(100, 5);
-	private static final ConstRange unique = new ConstRange(100, 1);
-	private static final ConstRange extraordinary = new ConstRange(1000, 1);
-	private static final ConstRange legendary = new ConstRange(10000, 1);
+	private static final ConstRange unique = new ConstRange(100, 2);
+	private static final ConstRange extraordinary = new ConstRange(100, 1);
+	private static final ConstRange legendary = new ConstRange(200, 1);
 	public static ConstRange parseChance(String v) {
 		if (v.equals("100")) return always;
 		else if (v.equals("70")) return often;
@@ -71,9 +71,9 @@ public final class ResourceParserUtils {
 		else if (v.equals("20")) return rare_20;
 		else if (v.equals("10")) return rare_10;
 		else if (v.equals("5")) return seldom;
-		else if (v.equals("1")) return unique;
-		else if (v.equals("1/1000")) return extraordinary;
-		else if (v.equals("1/10000")) return legendary;
+		else if (v.equals("2")) return unique;
+		else if (v.equals("1")) return extraordinary;
+		else if (v.equals("1/200")) return legendary;
 		else if (v.indexOf('/') >= 0) {
 			int c = v.indexOf('/');
 			int a = parseInt(v.substring(0, c), 1);

@@ -213,7 +213,7 @@
             },
             {
                 "itemID":"mace_iron",
-                "chance":"1",
+                "chance":"2",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -221,7 +221,7 @@
             },
             {
                 "itemID":"broken_buckler",
-                "chance":"1",
+                "chance":"2",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -596,7 +596,7 @@
             },
             {
                 "itemID":"vscale_amul",
-                "chance":"1",
+                "chance":"2",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -617,7 +617,7 @@
             },
             {
                 "itemID":"clmr_wrmas",
-                "chance":"1/1000",
+                "chance":"1",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -654,7 +654,7 @@
             },
             {
                 "itemID":"clmr_wrld",
-                "chance":"1",
+                "chance":"2",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -765,7 +765,7 @@
             },
             {
                 "itemID":"clmr_dl",
-                "chance":"1",
+                "chance":"2",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -773,7 +773,7 @@
             },
             {
                 "itemID":"hvhead_irn",
-                "chance":"1",
+                "chance":"2",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -815,7 +815,7 @@
         "items":[
             {
                 "itemID":"axe_fear",
-                "chance":"1",
+                "chance":"2",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -844,7 +844,7 @@
             },
             {
                 "itemID":"scptr_runed",
-                "chance":"1",
+                "chance":"2",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -931,7 +931,7 @@
             },
             {
                 "itemID":"gem_fire",
-                "chance":"1/1000",
+                "chance":"1",
                 "quantity":{
                     "min":1,
                     "max":1
