@@ -419,6 +419,7 @@ public final class MainActivity
 	private boolean showToastForPickedUpItems(Loot loot) {
 		switch (controllers.preferences.displayLoot) {
 			case AndorsTrailPreferences.DISPLAYLOOT_TOAST:
+			case AndorsTrailPreferences.DISPLAYLOOT_TOAST_DETAILED:
 			case AndorsTrailPreferences.DISPLAYLOOT_DIALOG_FOR_ITEMS_ELSE_TOAST:
 				return true;
 			case AndorsTrailPreferences.DISPLAYLOOT_TOAST_FOR_ITEMS:
@@ -441,7 +442,12 @@ public final class MainActivity
 		final Loot combinedLoot = Loot.combine(loot);
 		if (!showToastForPickedUpItems(combinedLoot)) return;
 
-		final String msg = Dialogs.getMonsterLootPickedUpMessage(this, combinedLoot, exp);
+		String msg;
+		if (controllers.preferences.displayLoot == AndorsTrailPreferences.DISPLAYLOOT_TOAST_DETAILED) {
+			msg = Dialogs.getMonsterLootPickedUpMessageDetailed(this, combinedLoot, exp, world);
+		} else {
+			msg = Dialogs.getMonsterLootPickedUpMessage(this, combinedLoot, exp);
+		}
 		showToast(msg, Toast.LENGTH_LONG);
 	}
 
