@@ -1,4 +1,4 @@
-﻿## Graphics Contributors
+## Graphics Contributors
 Most of the graphical resources are licensed under some kind of CC sharealike license, as stated on their corresponding pages that we link to (see below). Some are CC or GPL in their original form, but some are not, and Andor's Trail has gotten explicit written approval from the author(s) to use them to this project. If you would like to use some of these resources you will be required to get your own explicit written approval.
 
 Item tilesets graphics by [Ails](http://ails.deviantart.com/art/420-Pixel-Art-Icons-for-RPG-129892453).

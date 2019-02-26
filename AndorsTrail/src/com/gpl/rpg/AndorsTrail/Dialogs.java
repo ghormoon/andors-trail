@@ -38,6 +38,7 @@ import com.gpl.rpg.AndorsTrail.model.ability.ActorConditionType;
 import com.gpl.rpg.AndorsTrail.model.ability.SkillCollection;
 import com.gpl.rpg.AndorsTrail.model.actor.Monster;
 import com.gpl.rpg.AndorsTrail.model.item.Inventory;
+import com.gpl.rpg.AndorsTrail.model.item.ItemContainer;
 import com.gpl.rpg.AndorsTrail.model.item.ItemType;
 import com.gpl.rpg.AndorsTrail.model.item.Loot;
 import com.gpl.rpg.AndorsTrail.model.map.MapObject;
@@ -143,6 +144,19 @@ public final class Dialogs {
 		appendGoldPickedUpMessage(ctx, combinedLoot, sb);
 		return sb.toString();
 	}
+
+	public static String getMonsterLootPickedUpMessageDetailed(final Context ctx, final Loot combinedLoot, final int exp, final WorldContext world) {
+		StringBuilder sb = new StringBuilder(6000);
+
+		sb.append(ctx.getString(R.string.dialog_loot_foundgoldexp, exp, combinedLoot.gold));
+
+		for (ItemContainer.ItemEntry item : combinedLoot.items.items) {
+			sb.append('\n');
+			sb.append(String.format("%dx %s", item.quantity, item.itemType.getName(world.model.player)));
+		}
+		return sb.toString();
+	}
+
 	public static String getMonsterLootPickedUpMessage(final Context ctx, final Loot combinedLoot, final int exp) {
 		StringBuilder sb = new StringBuilder(60);
 		appendMonsterEncounterSurvivedMessage(ctx, sb, exp);

@@ -11,6 +11,7 @@ public final class AndorsTrailPreferences {
 	public static final int DISPLAYLOOT_DIALOG_FOR_ITEMS = 3;
 	public static final int DISPLAYLOOT_DIALOG_FOR_ITEMS_ELSE_TOAST = 4;
 	public static final int DISPLAYLOOT_TOAST = 1;
+	public static final int DISPLAYLOOT_TOAST_DETAILED = 6;
 	public static final int DISPLAYLOOT_TOAST_FOR_ITEMS = 5;
 	public static final int DISPLAYLOOT_NONE = 2;
 	public static final int MOVEMENTMETHOD_STRAIGHT = 0;
