@@ -1,4 +1,4 @@
-﻿## Andor's Trail Contribution List
+## Andor's Trail Contribution List
 **(In alphabetical order)**
 
 Additional maps by: 

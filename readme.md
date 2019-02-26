@@ -1,4 +1,4 @@
-﻿# Andor's Trail
+# Andor's Trail
 
 Andor's Trail is a single-player quest-driven roguelike fantasy dungeon crawler RPG with a powerful story.
 
